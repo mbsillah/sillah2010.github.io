@@ -178,6 +178,18 @@ hr.small {
   padding: 50px 0;
 }
 
+.profilePicContainer {
+  text-align: center;
+}
+
+.profilePic {
+  width: 275px;
+  height: 275px;
+  border-radius: 200px;
+  margin: 6px 0px 18px 0px;
+  border-style: solid;
+  border-color: rgba(102,102,102, .5)
+}
 
 /* Services */
 
@@ -188,6 +200,30 @@ hr.small {
 .service-item {
   margin-bottom: 30px;
 }
+
+.javascriptLogo {
+  width: 110px;
+  height: 110px;
+}
+
+.reactLogo {
+  width: 130px;
+  height: 110px;
+  background-color: black;
+}
+
+.railsLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
 
 
 /* Callout */
